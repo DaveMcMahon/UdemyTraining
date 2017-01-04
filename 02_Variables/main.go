@@ -19,5 +19,4 @@ func main() {
 	fmt.Printf("%v \n", num2)
 	fmt.Printf("%v \n", name)
 	fmt.Printf("%v \n", decNum)
-
 }
