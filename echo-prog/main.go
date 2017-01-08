@@ -1,17 +1,14 @@
 package main
 
-import "fmt"
-import "os"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
 
-	var s, sep string
-
-	for i := 0; i < len(os.Args); i++ {
-		s += sep + os.Args[i]
-		sep = " "
+	for indx, arg := range os.Args[0:] {
+		fmt.Println(indx, " - ", arg)
 	}
-
-	fmt.Println(s)
 
 }
