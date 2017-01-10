@@ -22,22 +22,22 @@ func main() {
 
 	fmt.Printf("%T\n", myNewArray)
 
-	//	fmt.Println(myArray[0])
-	//	fmt.Println(myArray[len(myArray)-1])
+	fmt.Println(myArray[0])
+	fmt.Println(myArray[len(myArray)-1])
 
-	//	fmt.Println("*******************************")
+	fmt.Println("*******************************")
 
-	//	var myList [3]int = [3]int{1, 2, 3}
-	//	myList2 := [...]int{1, 2, 3, 4}
+	var myList [3]int = [3]int{1, 2, 3}
+	myList2 := [...]int{1, 2, 3, 4}
 
-	//	for _, value := range myList {
-	//		fmt.Println(value)
-	//	}
+	for _, value := range myList {
+		fmt.Println(value)
+	}
 
-	//	fmt.Println("*******************************")
+	fmt.Println("*******************************")
 
-	//	for _, value := range myList2 {
-	//		fmt.Println(value)
-	//	}
+	for _, value := range myList2 {
+		fmt.Println(value)
+	}
 
 }
